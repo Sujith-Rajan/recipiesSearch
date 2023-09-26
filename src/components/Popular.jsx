@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState} from "react";
+import React from "react";
 import { API_KEY } from "../constants/constants";
 import styled from "styled-components";
 import { Splide,SplideSlide } from "@splidejs/react-splide";
@@ -6,6 +7,7 @@ import '@splidejs/splide/css';
 
 function Popular() {
     const [popular, setPopular] = useState([])
+
  
     useEffect(()=>{
         getPopular();
