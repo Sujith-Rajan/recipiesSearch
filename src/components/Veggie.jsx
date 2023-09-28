@@ -56,6 +56,7 @@ margin:4rem 0rem;
 
 const Card =styled.div`
 min-height:25rem;
+width:18rem;
 border-radius:2rem;
 overflow:hidden;
 position:relative;
@@ -66,7 +67,7 @@ img{
     position:absolute;
     left:0;
     width:100%;
-    height:90%;
+    height:80%;
     object-fit:cover;
 }
 p{
@@ -80,7 +81,7 @@ p{
     text-align:center;
     font-weight:600;
     font-size:1rem;
-    height:40%;
+    height:60%;
     display:flex;
     justify-content:center;
     align-items:center;

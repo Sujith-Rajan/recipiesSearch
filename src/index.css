@@ -1,20 +1,42 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;700;800&family=Martian+Mono:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Yanone+Kaffeesatz&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Big Shoulders Display', cursive;
+font-family: 'Martian Mono', monospace;
+font-family: 'Poppins', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
 
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0% 10%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h4{
+  font-size: 1rem;
+ 
+  font-weight: 300;
+}
+h3{
+  font-size: 1rem;
+  color: rgb(44, 43, 43);
+  line-height: 2.5;
+  margin: 2rem 0rem;
+  font-weight: 400;
+}
+a{
+  color: rgb(44, 43, 43);
 }

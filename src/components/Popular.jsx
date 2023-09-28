@@ -69,7 +69,8 @@ margin:4rem 0rem;
 `;
 
 const Card =styled.div`
-min-height:25rem;
+min-height:20rem;
+width:15rem;
 border-radius:2rem;
 overflow:hidden;
 position:relative;
