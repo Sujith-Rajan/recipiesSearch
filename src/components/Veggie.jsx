@@ -4,6 +4,7 @@ import { API_KEY } from "../constants/constants";
 import styled from "styled-components";
 import { Splide,SplideSlide } from "@splidejs/react-splide";
 import '@splidejs/splide/css';
+import { Link } from "react-router-dom";
 
 function Veggie() {
     const[veggie,setVeggie] = useState([])
@@ -38,9 +39,11 @@ function Veggie() {
         return (
             <SplideSlide key={recipes.id}>
             <Card >
+                <Link to={'/recipie/'+recipes.id}>
                 <p>{recipes.title}</p>
                 <Gradient/>
                 <img src={recipes.image} alt={recipes.title} />
+                </Link>
             </Card>
             </SplideSlide>
         )
