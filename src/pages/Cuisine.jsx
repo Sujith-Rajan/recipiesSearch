@@ -1,11 +1,9 @@
 import React, { useEffect } from 'react'
 import { API_KEY } from '../constants/constants'
-// import styled from 'styled-components'
-// import { motion } from 'framer-motion'
-import { useParams} from 'react-router-dom'
+
+import { useParams,Link} from 'react-router-dom'
 import { useState } from 'react'
 import styled from 'styled-components'
-import Catogories from '../components/Catogories'
 
 
 
@@ -40,7 +38,7 @@ function Cuisine() {
     }
     return(
         <div>
-       <Catogories/>
+       {/* <Catogories/> */}
 
     
     <Grid>
@@ -48,8 +46,10 @@ function Cuisine() {
         {cuisine.map((item)=>{
             return(
                 <Card key={item.id}>
+                    <Link to={'/recipie/' + item.id}>
                     <img src={item.image} alt={item.image} />
                     <h4>{item.title}</h4>
+                    </Link>
                 </Card>
             )
         })}
