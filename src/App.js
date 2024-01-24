@@ -12,8 +12,8 @@ function App() {
            <BrowserRouter>
            <Nav>
            <GiKnifeFork></GiKnifeFork>
-            <Logo to={'/'} > Fooddiee</Logo>
-              
+            <Logo to={'/'} > Fooddiee</Logo>{" "}
+            <span>Search your favorite recipie</span> 
                 
            </Nav>
             <Search/>
