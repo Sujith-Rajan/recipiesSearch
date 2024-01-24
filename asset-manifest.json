@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Sujith-Rajan/recipiesSearch.git/static/css/main.4d32040e.css",
-    "main.js": "/Sujith-Rajan/recipiesSearch.git/static/js/main.9f185a2f.js",
-    "index.html": "/Sujith-Rajan/recipiesSearch.git/index.html",
-    "main.4d32040e.css.map": "/Sujith-Rajan/recipiesSearch.git/static/css/main.4d32040e.css.map",
-    "main.9f185a2f.js.map": "/Sujith-Rajan/recipiesSearch.git/static/js/main.9f185a2f.js.map"
+    "main.css": "/recipiesSearch/static/css/main.4d32040e.css",
+    "main.js": "/recipiesSearch/static/js/main.370b2843.js",
+    "index.html": "/recipiesSearch/index.html",
+    "main.4d32040e.css.map": "/recipiesSearch/static/css/main.4d32040e.css.map",
+    "main.370b2843.js.map": "/recipiesSearch/static/js/main.370b2843.js.map"
   },
   "entrypoints": [
     "static/css/main.4d32040e.css",
-    "static/js/main.9f185a2f.js"
+    "static/js/main.370b2843.js"
   ]
 }
